@@ -1,3 +1,22 @@
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald'),
+       url('path/to/your/Oswald-font-file.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'),
+       url('path/to/your/Montserrat-font-file.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: local('Source Sans Pro'),
+       url('path/to/your/Source-Sans-Pro-font-file.woff') format('woff');
+}
+
+
 @media (min-width: 499px) {
   /* Add your specific styles for min-width: 499px here */
 }
@@ -82,6 +101,8 @@ nav ul li a:hover {
   height: 499px;
   position: relative;
   margin: 0 118px 50px 0px;
+}
+
 }
 
 .image-container, .text {
